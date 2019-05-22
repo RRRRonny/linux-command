@@ -55,8 +55,8 @@ yum install firewalld firewall-config
 
 systemctl start  firewalld # 启动
 systemctl status firewalld # 或者 firewall-cmd --state 查看状态
-systemctl disable firewalld # 停止
-systemctl stop firewalld  # 禁用
+systemctl disable firewalld # 禁用
+systemctl stop firewalld  # 停止
 
 # 关闭服务的方法
 # 你也可以关闭目前还不熟悉的FirewallD防火墙，而使用iptables，命令如下：
